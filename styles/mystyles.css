@@ -1,0 +1,748 @@
+.contact_color{
+    background-color:lightseagreen;
+}
+
+.cool_look{
+    background-color: lightblue;
+}
+
+.about_look{
+    background-color: lightskyblue;
+}
+
+.centerme{
+    background-size: stretch;
+    margin-left: 100px;
+}
+
+#about_container {  
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 50px;
+  }
+  #about_container_left {
+    flex-shrink: 3;
+    width: 20%;
+    position: sticky;
+    top: 10px;
+  }
+  #about_container_main {
+    flex-shrink: 3;
+    width: 60%;
+    margin-left: 150px;
+    justify-content: center;
+    content: hide;
+
+  }
+  #about_container_right {
+    flex-shrink: 3;
+    width: 20%;
+    position: sticky;
+    top: 70px;
+  }
+
+.put_me_up{
+    width: 560px;
+    height: 315px;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 500px;
+    margin-top: -200px;
+}
+
+.about_navigation{
+    position: sticky;
+    top: 80px;
+    margin-right: 20px;
+    justify-content: right;
+    background-color: darkblue;
+    color: white;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.nobold{
+    text-decoration: none;
+    font-weight: normal;
+
+}
+
+.custom_pleasecenterme{
+    width: 700px;
+    /*margin: auto;*/
+    margin-left: -125px;
+    margin-top: -1000;
+    position: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.onpage_override{
+    color: white;
+}
+
+.index_navigation{
+    width: 200px;
+    height: 215px;
+    position: sticky;
+    top: 80px;
+    float: right;
+    justify-content: right;
+    margin-top: -190px;
+    background-color: darkblue;
+    right: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.custom1{
+    position: relative;
+    margin-left: 550px;
+    margin-top: -70px;
+    text-decoration: none;
+    font-weight: none;
+    font-size: none;
+}
+
+.custom2{
+    position: relative;
+    margin-left: 550px;
+    margin-top: -70px;
+}
+
+.phone_number{
+    position: relative;
+    margin-left: 640px;
+    margin-top: -75px;
+}
+
+.emailtag{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 1015px;   
+    position: relative;
+}
+
+input:hover{
+    transform: scale(1.2, 1.2);
+}
+
+#container2{
+    width: 400px;
+    height: 600px;
+}
+
+.fa_logo{
+    position: relative;
+    width: 70px;
+    height: 70px;  
+    background-repeat: no-repeat;
+    left: 400px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+
+.ig_logo{
+    background-repeat: no-repeat;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 400px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email_logo{
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 400px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phone_logo{
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 400px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pleasecenterme{
+    width: 400px;
+    margin: auto;
+    position: center;
+    color: blue;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+#container1{
+    width: 300;
+}
+
+.button1{
+    margin-left: 35px;
+    position: sticky;
+    top: 50px;
+    background-color: rgb(240, 199, 146);
+    font-size: 13;
+    color: black;
+    font-weight: bold;
+    width: 230px;
+    height: 110px;
+}
+
+.fakeadd{
+    image-rendering: auto;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+    position: sticky;
+    top: 80px;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header-text{
+    color: rgb(68, 68, 212);
+    text-shadow: rgb(0, 0, 0);
+}   
+
+.override{
+    position: relative;
+    padding-bottom: 0;
+    background-size: contain;
+    opacity: 100%;
+}
+
+#pleasework{
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.about_images{
+    background-size: stretch;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+@media (min-width: 100px){
+    .bottompart{
+        right: 30px;
+        left: 120px;
+        bottom: 10px;
+        top: 100px;
+        color: grey
+    }
+
+    .fa_logo{
+        position: relative;
+        width: 30px;
+        height: 30px;  
+        background-repeat: no-repeat;
+        left: 100px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .about_navigation{
+        font-size: 6px;
+        position: sticky;
+        top: 80px;
+        margin-right: 20px;
+        justify-content: right;
+        background-color: darkblue;
+        color: white;
+        text-decoration: bold;
+        text-align: center;
+    }
+
+    .custom_pleasecenterme{
+        width: 200px;
+        margin-left: 75px;
+        margin-top: -1000;
+        font-size: 10px;
+        position: center;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text_size{
+        font-size: 4px;
+    }
+
+    .fakeadd{
+        image-rendering: auto;
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        position: sticky;
+        top: 80px;
+    }
+
+    .button1{
+        margin-left: 5px;
+        float: left;
+        position: sticky;
+        top: 50px;
+        background-color: rgb(240, 199, 146);
+        font-size: 2;
+        color: black;
+        font-weight: none;
+        width: 50px;
+        height: 60px;
+    }
+
+    .index_navigation{
+        width: 75px;
+        height: 90px;
+        position: sticky;
+        top: 80px;
+        float: right;
+        justify-content: right;
+        margin-top: -50px;
+        background-color: darkblue;
+        right: 20px;
+        color: white;
+        font-size: 8px;
+        text-decoration: bold;
+        text-align: center;
+    }
+
+    .put_me_up{
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 500px;
+        margin-top: -200px;
+    }
+
+    .about_images{
+        background-size: stretch;
+        height: 100px;
+        width: 100px;
+    }
+
+    .custom1{
+        position: relative;
+        margin-left: 170px;
+        margin-top: -50px;
+        text-decoration: none;
+        font-weight: none;
+        font-size: 10px;
+    }
+
+    .custom2{
+        position: relative;
+        margin-left: 170px;
+        margin-top: -50px;
+        font-size: 10px;
+    }
+
+    .emailtag{
+        position: relative;
+        margin-left: 70px;
+        margin-top: -50px;   
+        font-size: 10px;
+    }
+
+    .phone_number{
+        position: relative;
+        margin-left: 200px;
+        margin-top: -45px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .ig_logo{
+        background-repeat: no-repeat;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left: 100px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .email_logo{
+        image-rendering: auto;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left: 100px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .phone_logo{
+        image-rendering: auto;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left: 100px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 640px) {
+.bottompart{
+    right: 8px;
+    left: 120px;
+    bottom: 10px;
+    top: 20px;
+    color: grey
+}
+
+.custom1{
+    position: relative;
+    margin-left: 300px;
+    margin-top: -60px;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 15px;
+}
+
+.custom2{
+    position: relative;
+    margin-left: 300px;
+    margin-top: -60px;
+    font-size: 15px;
+}
+
+.emailtag{
+    position: relative;
+    margin-left: 100px;
+    margin-top: -60px;   
+    font-size: 15px;
+}
+
+.phone_number{
+    position: relative;
+    margin-left: 350px;
+    margin-top: -60px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.fa_logo{
+    position: relative;
+    width: 50px;
+    height: 50px;  
+    background-repeat: no-repeat;
+    left: 200px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.ig_logo{
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 200px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email_logo{
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 200px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phone_logo{
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 200px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_images{
+    background-size: stretch;
+    height: 250px;
+    width: 25x0px;
+}
+
+.about_navigation{
+    font-size: 12px;
+    position: sticky;
+    top: 80px;
+    margin-right: 20px;
+    justify-content: right;
+    background-color: darkblue;
+    color: white;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.custom_pleasecenterme{
+    width: 500px;
+    margin-left: -30px;
+    margin-top: -1000;
+    font-size: 15px;
+    position: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_size{
+    font-size: 6px;
+}
+
+.fakeadd{
+    image-rendering: auto;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    position: sticky;
+    top: 80px;
+}
+
+.button1{
+    margin-left: 20px;
+    position: sticky;
+    top: 50px;
+    background-color: rgb(240, 199, 146);
+    font-size: 8;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 60px;
+}
+
+.index_navigation{
+    width: 130px;
+    height: 160px;
+    position: sticky;
+    top: 80px;
+    float: right;
+    justify-content: right;
+    margin-top: -150px;
+    background-color: darkblue;
+    right: 20px;
+    color: white;
+    font-size: 13px;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.put_me_up{
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 500px;
+    margin-top: -200px;
+}
+}
+
+@media (min-width: 1008px){
+    .bottompart{
+        right: 8px;
+        left: 120px;
+        bottom: 10px;
+        top: 175px;
+        color: grey;
+    }
+
+    .text_size{
+        font-size: 18px;
+    }
+
+    .fakeadd{
+        image-rendering: auto;
+        width: 250px;
+        height: 200px;
+        margin-left: 20px;
+        position: sticky;
+        top: 80px;
+    }
+
+    .button1{
+        margin-left: 35px;
+        position: sticky;
+        top: 50px;
+        background-color: rgb(240, 199, 146);
+        font-size: 13;
+        color: black;
+        font-weight: bold;
+        width: 230px;
+        height: 110px;
+    }
+
+    .index_navigation{
+        width: 200px;
+        height: 215px;
+        position: sticky;
+        top: 80px;
+        float: right;
+        justify-content: right;
+        margin-top: -190px;
+        background-color: darkblue;
+        right: 50px;
+        color: white;
+        font-size: 20px;
+        text-decoration: bold;
+        text-align: center;
+    }
+
+    .custom_pleasecenterme{
+        width: 700px;
+        /*margin: auto;*/
+        margin-left: -125px;
+        margin-top: -1000;
+        position: center;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about_navigation{
+        font-size: 20px;
+        position: sticky;
+        top: 80px;
+        margin-right: 20px;
+        justify-content: right;
+        background-color: darkblue;
+        color: white;
+        text-decoration: bold;
+        text-align: center;
+    }
+
+    .put_me_up{
+        width: 560px;
+        height: 315px;
+        justify-content: center;
+        margin-left: 450px;
+        margin-right: 500px;
+        margin-top: -200px;
+    }
+
+    .about_images{
+        background-size: stretch;
+        height: 400px;
+        width: 400px;
+    }
+
+    .fa_logo{
+        position: relative;
+        width: 70px;
+        height: 70px;  
+        background-repeat: no-repeat;
+        left: 400px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .custom1{
+        position: relative;
+        margin-left: 550px;
+        margin-top: -70px;
+        text-decoration: none;
+        font-weight: none;
+        font-size: 25px;
+    }
+
+    .ig_logo{
+        background-repeat: no-repeat;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin-left: 400px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .custom2{
+        position: relative;
+        margin-left: 550px;
+        margin-top: -70px;
+        font-size: 25px;
+    }
+
+    .email_logo{
+        image-rendering: auto;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin-left: 400px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .emailtag{
+        margin-left: 150px;
+        margin-bottom: 20px;
+        margin-top: 1015px;   
+        position: relative;
+        font-size: 25px;
+    }
+
+    .phone_logo{
+        image-rendering: auto;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin-left: 400px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .phone_number{
+        position: relative;
+        margin-left: 640px;
+        margin-top: -75px;
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+}
